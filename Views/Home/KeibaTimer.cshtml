@@ -1,0 +1,17 @@
+@model List<string>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keiba Timer</title>
+</head>
+<body>
+    <h1>スクレイピング結果</h1>
+    <ul>
+        @foreach (var time in Model)
+        {
+            <li>@time</li>
+        }
+    </ul>
+</body>
+</html>

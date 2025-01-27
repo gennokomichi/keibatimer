@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/keiba_Timer.props" />
+</Project>
