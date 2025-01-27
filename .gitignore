@@ -1,0 +1,12 @@
+# Node.js関連
+node_modules/
+
+# コンパイル結果
+bin/
+obj/
+
+# 一時ファイル
+*.log
+
+# Docker関連
+.docker/
